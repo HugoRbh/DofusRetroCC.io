@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="script.js"></script>
+
+    <title>Dofus Retro | Crafts Calculator</title>
+
+</head>
+
+<body class="w-full h-screen flex justify-center items-center bg-gray-800 text-white text-xl" >
+
+<form class="w-full flex flex-col justify-center items-center">
+
+    <img src="https://upload.wikimedia.org/wikipedia/fr/3/3d/Dofus_Logo.png" alt="">
+
+    <h1 class="p-4 text-3xl text-center"><b>Dofus Retro</b><br>Crafts Calculator</h1>
+
+    <input class="w-3/5 hover:outline-0 rounded-lg bg-gray-900 text-white my-8 p-2 border-2 border-gray-600 hover:bg-gray-600 duration-300" type="number" pattern="[0-9]*" placeholder="Nombre de recettes" id="NBrecettes" onkeyup="Calculator()"/>
+
+
+    <div class="result flex flex-col items-center justify-center m-4">
+
+      <p>Average Waiting Time :</p>
+
+      <span class="h-12" id="result"></span>
+
+    </div>
+
+  </form>
+
+</body>
+
+</html>
+
